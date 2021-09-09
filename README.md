@@ -41,4 +41,6 @@ In CMS (https://content.pilates.com/wp-admin/) we work almost entirely under "UK
 8. Pick a product category.
 9. In stock, temporarily out of stock, or permanently out of stock.
 
+Note: The tags on the right will be filter options on category pages.
+
 Once updated or published, the product changes will be automatically reflected on the live site.
