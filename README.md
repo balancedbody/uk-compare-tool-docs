@@ -3,18 +3,15 @@
 ## How to use the mirror comparison tool:
 
 #### Generate a CMS report from https://content.pilates.com/wp-admin/
-1. Click "All Export" in the bottom of the sidebar
-2. From the "Choose a post type..." dropdown, choose "UK Products"
-3. Click "Customize Export File >"
-4. At the bottom of the page, you'll see a dropdown that says "Load Template...". Choose "UK Export"
-5. Click "Continue"
-6. Click "Confirm & Run Export" 
-7. Under "Click to Download", click "CSV"
-8. Open that CSV file in Excel and save it as a .xlsx file
+1. Click "All Export" -> "Manage Exports" in the bottom left of the sidebar
+2. Click "Run Export" on the row titled "UK Products Export - 2021 September 01 23:20"
+3. Click "Confirm & Run Export" 
+4. Under "Click to Download", click "CSV"
+5. Open that CSV file in Excel and save it as a .xlsx file
 
 #### Generate a Datafreight report from http://157.231.89.66:8080/
 1. Click "List Stock"
-2. Click "Export" in the bottom right of the screen and choose "Excel 2007+ Workbook (*.xlsx)"
+2. Click "Export" in the bottom right of the screen and choose "Excel 2007+ Workbook (.xlsx)"
 
 #### Load the reports into the tool
 1. In the tool, load the CMS xlsx file in the top option and the Datafreight xlsx in the bottom - the report will be generated automatically
@@ -35,12 +32,12 @@ In CMS (https://content.pilates.com/wp-admin/) we work almost entirely under "UK
 2. Product title that will be shown on the live site. Keep the title as short as possible and put any variations in the next field.
 3. Product variation like color, size, length, or other distinguishing characteristic.
 4. The URL of this product on pilates.com.
-5. The image URL of this product on pilates.com. To find this (in Firefox or Chrome browser) right click the image and click "Inspect". You will see a highlighted section of code in the window that opens. Copy the full filepath within `src=" "`.
+5. The image URL of this product on pilates.com. To find this URL right click on the image and select "Open image in new tab". Use the URL in the new tab for this field.
 6. Description of the product. Keep it brief!
 7. Part number of this product.
 8. Pick a product category.
 9. In stock, temporarily out of stock, or permanently out of stock.
 
-Note: The tags on the right will be filter options on category pages.
+Note: The tags on the right will be filter options on category pages. You can add as many as you feel you need. Try to keep them similar across similar items (i.e. use "Discs" for all disc-like products instead of "Disc", "Discs", "Rotating Discs").
 
 Once updated or published, the product changes will be automatically reflected on the live site.
